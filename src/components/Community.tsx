@@ -1,7 +1,7 @@
 
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Users, Calendar, Award, Github, Twitter, Discord } from "lucide-react";
+import { MessageCircle, Users, Calendar, Award, Github, Twitter, MessageSquare } from "lucide-react";
 
 export const Community = () => {
   const stats = [
@@ -117,7 +117,7 @@ export const Community = () => {
               GitHub
             </Button>
             <Button variant="ghost" size="sm">
-              <Discord className="w-5 h-5 mr-2" />
+              <MessageSquare className="w-5 h-5 mr-2" />
               Discord
             </Button>
             <Button variant="ghost" size="sm">

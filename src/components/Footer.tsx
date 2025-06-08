@@ -1,5 +1,5 @@
 
-import { Code, Github, Twitter, Discord, Mail, Heart } from "lucide-react";
+import { Code, Github, Twitter, MessageSquare, Mail, Heart } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className="flex space-x-4">
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
               <Twitter className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Discord className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              <MessageSquare className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
               <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
             </div>
           </div>
